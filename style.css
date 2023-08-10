@@ -1,0 +1,42 @@
+/* importando uma fonte do google fonts */
+@import url('https://fonts.googleapis.com/css2?family= Krona +One & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color:#F6F6F6;
+}
+.titulo-destaque{
+    color: #22D4FD;
+}
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+
+    width:593px;
+}
+.apresentacao__conteudo__titulo{
+
+    font-size: 36px;
+    /* fonte do titulo */
+    font-family: 'Krona One', sem serifa;
+}
+.apresentacao__conteudo__texto{
+
+    font-size: 24px;
+    font-family: 'Montserrat', sem serifa;
+
+}
