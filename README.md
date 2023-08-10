@@ -54,7 +54,7 @@ Para estilizar sua página, você criará um arquivo CSS:
     2.Dentro da pasta css, crie um arquivo chamado style.css e abra-o no seu editor de código.
 
     3.Copie e cole o código CSS do Passo 3 neste arquivo.
-]
+
 ## Passo 6: Commits e Push
 
 Depois de criar a estrutura e adicionar o estilo, é hora de fazer o commit e enviar as alterações para o GitHub:
