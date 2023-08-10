@@ -32,7 +32,7 @@ No seu computador:
 
 3. Clone o repositório usando o comando:
 
-   ```bash
+   
    git clone https://github.com/seu-usuario/minha-primeira-pagina.git
 
 ## Passo 4: Estrutura Básica do HTML (Continuação)
@@ -59,16 +59,16 @@ Para estilizar sua página, você criará um arquivo CSS:
 
 Depois de criar a estrutura e adicionar o estilo, é hora de fazer o commit e enviar as alterações para o GitHub:
 
-    Volte ao terminal ou prompt de comando.
-
-    Dentro da pasta do seu repositório, execute os seguintes comandos:
+    1.Volte ao terminal ou prompt de comando.
+    2.Dentro da pasta do seu repositório, execute os seguintes comandos:
 
 **git add**
 **git commit -m "Adicionar estrutura HTML e CSS**
 **git push origin main**
 
-##Passo 7: GitHub Pages
-**Agora, vamos hospedar sua página usando o GitHub Pages:**
+## Passo 7: GitHub Pages
+
+Agora, vamos hospedar sua página usando o GitHub Pages:
 
     No GitHub, vá até as configurações do seu repositório.
 
