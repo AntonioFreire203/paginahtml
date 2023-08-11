@@ -86,9 +86,9 @@ Uma vez que suas alterações estejam prontas, você pode fazer o push do seu ra
 
 Se houver conflitos durante o rebase ou o pull, resolva-os manualmente, commit e continue o rebase ou pull:
 
-**git add .   "Adicionar as alterações resolvidas"**
+**git add . "Adicionar as alterações resolvidas"**
 
-**git rebase --continue   "Continuar o rebase após resolver conflitos"**
+**git rebase --continue  "Continuar o rebase após resolver conflitos"**
 
 
 
