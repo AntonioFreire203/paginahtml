@@ -1,6 +1,6 @@
 # Guia para Criar sua Primeira Página HTML e CSS no GitHub
 
-**Bem-vindo ao guia de criação da sua primeira página HTML e CSS usando o GitHub!** Neste guia, você encontrará passos simples para criar e hospedar sua página no GitHub Pages. Vamos começar!
+**Bem-vindo ao guia de criação da sua primeira página HTML e CSS usando o GitHub!** Neste guia, você encontrará passos simples para criar e hospedar sua página no GitHub . Vamos começar!
 
 ## Passo 1: Preparação
 
@@ -39,7 +39,7 @@ No seu computador:
 **git checkout -b nome-do-ramo**
 
 
-## Passo 4: Estrutura Básica do HTML (Continuação)
+## Passo 4: Estrutura Básica do HTML 
 
 Agora que você tem uma cópia local do repositório, é hora de adicionar a estrutura básica do HTML:
 
@@ -51,7 +51,7 @@ Agora que você tem uma cópia local do repositório, é hora de adicionar a est
 
 ##  Passo 5: Estilizando com CSS
 
-Para estilizar sua página, você criará um arquivo CSS:
+Para estilizar sua página, você criará um arquivo externo CSS:
 
     1.Na pasta do seu repositório, crie uma pasta chamada css.
 
@@ -60,7 +60,7 @@ Para estilizar sua página, você criará um arquivo CSS:
     3.Copie e cole o código CSS do Passo 3 neste arquivo.
 
 ## Passo 6: Commits 
-Realize suas alterações no código e faça commits regulares e significativos. 
+**Atenção:**Realize suas alterações no código e faça commits regulares e significativos. 
 Lembre-se de incluir mensagens de commit descritivas que expliquem as alterações que você fez:
 
 **git add .**  # Adicionar as alterações para o próximo commit
@@ -72,6 +72,20 @@ Lembre-se de incluir mensagens de commit descritivas que expliquem as alteraçõ
 Regularmente, enquanto trabalha em seu ramo, você deve sincronizar com o repositório remoto para evitar divergências:
 **git fetch origin  # Buscar as atualizações do repositório remoto**
 **git rebase origin/nome-do-ramo  # Reaplicar suas alterações sobre as do remoto**
+
+## Passo 8:Fazer o Push para o Repositório Remoto:
+
+Uma vez que suas alterações estejam prontas, você pode fazer o push do seu ramo para o repositório remoto:
+**git push origin nome-do-ramo**
+
+## Atenção:Caso haja Conflitos:
+
+Se houver conflitos durante o rebase ou o pull, resolva-os manualmente, commit e continue o rebase ou pull:
+**git add .  # Adicionar as alterações resolvidas**
+**git rebase --continue  # Continuar o rebase após resolver conflitos**
+
+
+
 
 
 
