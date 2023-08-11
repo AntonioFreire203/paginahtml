@@ -22,7 +22,7 @@ Crie um novo repositório no GitHub:
 
 4. Clique em "Create Repository".
 
-## Passo 3: Clonando o Repositório
+## Passo 3: Clonando o Repositório Remoto e Criar um Ramo de Desenvolvimento:
 
 No seu computador:
 
@@ -32,8 +32,12 @@ No seu computador:
 
 3. Clone o repositório usando o comando:
 
-   
-git clone https://github.com/seu-usuario/minha-primeira-pagina.git
+**git clone https://github.com/seu-usuario/minha-primeira-pagina.git**
+
+4.Antes de começar a fazer alterações, crie um novo ramo para o seu trabalho. Isso permite que você isole suas alterações do ramo principal até que estejam prontas para serem incorporadas:
+
+**git checkout -b nome-do-ramo**
+
 
 ## Passo 4: Estrutura Básica do HTML (Continuação)
 
@@ -55,28 +59,20 @@ Para estilizar sua página, você criará um arquivo CSS:
 
     3.Copie e cole o código CSS do Passo 3 neste arquivo.
 
-## Passo 6: Commits e Push
+## Passo 6: Commits 
+Realize suas alterações no código e faça commits regulares e significativos. 
+Lembre-se de incluir mensagens de commit descritivas que expliquem as alterações que você fez:
 
-Depois de criar a estrutura e adicionar o estilo, é hora de fazer o commit e enviar as alterações para o GitHub:
-
-    1.Volte ao terminal ou prompt de comando.
-    2.Dentro da pasta do seu repositório, execute os seguintes comandos:
-
-**git add**
-
-**git commit -m "Adicionar estrutura HTML e CSS**
-
-**git push origin main**
+**git add .**  # Adicionar as alterações para o próximo commit
+**git commit -m** "Mensagem descritiva do commit"
 
 
-## Passo 7: GitHub Pages
+## Passo 7: Sincronizar com o Repositório Remoto:
 
-Agora, vamos hospedar sua página usando o GitHub Pages:
+Regularmente, enquanto trabalha em seu ramo, você deve sincronizar com o repositório remoto para evitar divergências:
+**git fetch origin  # Buscar as atualizações do repositório remoto**
+**git rebase origin/nome-do-ramo  # Reaplicar suas alterações sobre as do remoto**
 
-    No GitHub, vá até as configurações do seu repositório.
 
-    Role para baixo até a seção "GitHub Pages".
 
-    No dropdown "Source", selecione "main branch".
 
-    A página será atualizada e você encontrará um link para a sua página publicada.
