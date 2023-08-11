@@ -6,9 +6,10 @@
 
 1. **Crie uma Conta no GitHub**: Se você ainda não possui uma conta no GitHub, crie uma em `[github.com](https://github.com)`.
 
-2. **Instale o Git**: Se ainda não tiver o Git instalado no seu computador, você pode baixá-lo em `[git-scm.com](https://git-scm.com/downloads)`.
+2. **Instale o Git**: Se ainda não tiver o Git instalado no seu computador, você pode baixá-lo em `[git-scm.com]
+   (https://git-scm.com/downloads)`.
 
-3. **Editor de Código**: Escolha um editor de código, como Visual Studio Code, Sublime Text ou Atom, para escrever e editar seu código.
+4. **Editor de Código**: Escolha um editor de código, como Visual Studio Code, Sublime Text ou Atom, para escrever e editar seu código.
 
 ## Passo 2: Estrutura Básica do HTML
 
@@ -70,18 +71,23 @@ Lembre-se de incluir mensagens de commit descritivas que expliquem as alteraçõ
 ## Passo 7: Sincronizar com o Repositório Remoto:
 
 Regularmente, enquanto trabalha em seu ramo, você deve sincronizar com o repositório remoto para evitar divergências:
+
 **git fetch origin  # Buscar as atualizações do repositório remoto**
+
 **git rebase origin/nome-do-ramo  # Reaplicar suas alterações sobre as do remoto**
 
 ## Passo 8:Fazer o Push para o Repositório Remoto:
 
 Uma vez que suas alterações estejam prontas, você pode fazer o push do seu ramo para o repositório remoto:
+
 **git push origin nome-do-ramo**
 
 ## Atenção:Caso haja Conflitos:
 
 Se houver conflitos durante o rebase ou o pull, resolva-os manualmente, commit e continue o rebase ou pull:
+
 **git add .  # Adicionar as alterações resolvidas**
+
 **git rebase --continue  # Continuar o rebase após resolver conflitos**
 
 
