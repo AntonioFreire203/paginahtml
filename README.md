@@ -48,7 +48,7 @@ Agora que você tem uma cópia local do repositório, é hora de adicionar a est
 
    2. Crie um arquivo chamado index.html e abra-o no seu editor de código.
 
-   3.Copie e cole o código HTML do Passo 2 neste arquivo.
+    3.Copie e cole o código HTML do Passo 2 neste arquivo.
 
 ##  Passo 5: Estilizando com CSS
 
