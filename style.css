@@ -40,3 +40,9 @@ body{
     font-family: 'Montserrat', sem serifa;
 
 }
+
+.apresentacao__links{
+    
+    display: flex;
+    justify-content: space-between;
+}
